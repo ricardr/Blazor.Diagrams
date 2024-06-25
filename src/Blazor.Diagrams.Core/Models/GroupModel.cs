@@ -111,7 +111,7 @@ public class GroupModel : NodeModel
         }
     }
 
-    private bool UpdateDimensions()
+    public virtual bool UpdateDimensions()
     {
         if (Children.Count == 0)
             return true;
